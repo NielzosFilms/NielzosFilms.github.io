@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Over Mij | Programmeren</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="company_name">NielzosFilms Software</h1>
+            <img class="logo" src="../img/NielzosFilms logo2 500x500.png" alt="NielzosFilms Logo">
+            <nav><div class="menu-container"><ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="../over-mij.html">Over Mij</a></li>
+                <li><a href="../vaardigheden.html">Vaardigheden</a></li>
+                <li><a href="../projecten.html">Portfolio</a></li>
+                <li><a href="../nieuws.html">Laatste Nieuws</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul><br><br></div></nav>
+        </header>
+        <main>
+            <div class="main-block-container" style="margin-top: 100px;">
+                <div class="overmij-detailsblock" id="main" style="height:550px">
+                    <h2>Sportschool</h2>
+                    <img src="../img/sport.jpg" style="width: 20%">
+                    <img src="../img/sport2.jpg" style="width: 20%">
+                    <p style="display: inline-block;vertical-align: top;padding:10px;width:25%;margin-left: 20%;">Ik ga sinds kort naar de sportschool
+                        2 keer per week is wat ik probeer te doen, en dan vooral kracht training. Hiervoor deed ik aan HipHop dansen maar daar wou ik mee stoppen.</p>
+                </div>
+            </div>
+        </main>
+        <footer style="position:absolute;bottom:0;">
+            <h1 class="company_name" style="padding:20px">NielzosFilms Software</h1>
+            <p id="date" class="datetext"></p>
+            <p class="footer-name">Niels Hazelaar</p>
+            <script>
+                n =  new Date();
+                y = n.getFullYear();
+                m = n.getMonth() + 1;
+                d = n.getDate();
+                document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+            </script>
+        </footer>
+    </body>
+</html>
