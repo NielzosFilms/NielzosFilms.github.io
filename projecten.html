@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projecten</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="company_name">NielzosFilms Software</h1>
+            <img class="logo" src="img/NielzosFilms logo2 500x500.png" alt="NielzosFilms Logo">
+            <nav><div class="menu-container"><ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over-mij.html">Over Mij</a></li>
+                <li><a href="vaardigheden.html">Vaardigheden</a></li>
+                <li><a class="active" href="projecten.html">Portfolio</a></li>
+                <li><a href="nieuws.html">Laatste Nieuws</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul><br><br></div></nav>
+        </header>
+        <main class="main-container">
+            <div class="main-block-container">
+                <div class="main-block" id="main-left">
+                    <h2>Lutz Tailor Tool</h2>
+                    <img src="img/lutztailottool.png" class="center" style="height:50%;"><br>
+                    <p style="padding:10px;">In de kledingwinkel van Lutz wordt kleding vermaakt, maar dat werdt nog op papier gedaan. Ik heb dat hele process digitaal gemaakt.</p>
+                </div>
+                <div class="main-block" id="main-mid">
+                    <h2>Bulk Youtube Downloader</h2>
+                    <img src="img/ytdownloader.PNG" class="center" style="height:50%;"><br>
+                    <p style="padding:10px;">Ik wou graag veel muziek downloaden van internet dus had ik daarvoor een applicatie geschreven die dat in een keer zou doen.</p>
+                </div>
+                <div class="main-block" id="main-right">
+                </div>
+            </div>
+            <div class="main-block-container">
+                <div class="main-block" id="main-left">
+                </div>
+                <div class="main-block" id="main-mid">
+                </div>
+                <div class="main-block" id="main-right">
+                </div>
+            </div>
+            <div class="main-block-container">
+                <div class="main-block" id="main-left">
+                </div>
+                <div class="main-block" id="main-mid">
+                </div>
+                <div class="main-block" id="main-right">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1 class="company_name" style="padding:20px">NielzosFilms Software</h1>
+            <p id="date" class="datetext"></p>
+            <p class="footer-name">Niels Hazelaar</p>
+            <script>
+                n =  new Date();
+                y = n.getFullYear();
+                m = n.getMonth() + 1;
+                d = n.getDate();
+                document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+            </script>
+        </footer>
+    </body>
+</html>
